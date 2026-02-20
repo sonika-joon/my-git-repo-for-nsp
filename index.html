@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSP Project</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4e73df, #1cc88a);
+            color: white;
+            text-align: center;
+        }
+
+        .container {
+            margin-top: 150px;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            color: #4e73df;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #f8f9fc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to NSP Project 🚀</h1>
+    <p>This project is created by Sonika.</p>
+    <button onclick="showMessage()">Click Me</button>
+    <p id="message"></p>
+</div>
+
+<script>
+    function showMessage() {
+        document.getElementById("message").innerHTML =
+            "You are successfully running your first NSP web app!";
+    }
+</script>
+
+</body>
+</html>
